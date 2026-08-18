@@ -1,0 +1,158 @@
+:root {
+    --mcd-text-bold: 700;
+}
+
+
+
+html {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+}
+
+
+ul {
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+}
+
+.top header {
+    display: flex;
+    background-color: white;
+    box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.137);
+    padding: 8px 40px 8px 40px;
+}
+
+.top ul {
+    display: flex;
+    justify-content: end;
+    /* padding: 0;
+    list-style-type: none;
+    margin: 0; */
+    width: 100%;
+
+}
+
+.top li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+
+}
+
+
+.top nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* end of top */
+
+.side {
+    width: 376px;
+    border-right: 1px solid #e5e5e5;
+  padding-right: 10px;
+}
+
+.side aside {
+    width: 376px;
+
+}
+
+.side ul {
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+
+.side a {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    column-gap: 16px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-indent: 0;
+    font-size: 1.3rem;
+    border: 4px solid transparent;
+
+}
+
+.side a:hover {
+    background-color: #f0f1f1;
+    border-radius: 8px;
+}
+
+.side a:active {
+    border: 4px solid #0077a3;
+    background-color: #0077a315;
+}
+
+.side img {
+    width: 64px;
+    height: 64px;
+}
+
+.maincontainer {
+    display: flex;
+    margin: 16px 96px;
+}
+
+.center {
+    padding-left: 24px;
+}
+
+.center img {
+    width: 144px;
+    height: 144px;
+}
+
+.center h2 {
+    font-size: 16px;
+}
+
+.center h3 {
+    font-size: 14px;
+    font-weight: 1;
+    color: #535659;
+}
+
+.center ul {
+    grid-template-columns: repeat(6, minmax(188px, 1fr));
+    gap: 24px;
+    font-size: small;
+    display: grid;
+}
+
+.center li {
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.center span {
+    color: #0077a3;
+    border: 1px solid #0077a3;
+    border-radius: 9999px;
+    padding: 8px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    padding: 12px;
+}
